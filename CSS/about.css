@@ -1,0 +1,62 @@
+#customer-guarantee {
+    display: flex;
+    align-items: center;
+}
+
+#customer-guarantee p{
+    margin-top: 0px;
+    text-align: justify;
+}
+
+h3{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#our_story {
+    clear: left;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    background-color: #efece9;
+    padding: 1% 2%;
+}
+
+#our_storys {
+    clear: left;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    background-color: #d1671c;
+    color: #000;
+    padding: 1% 2%;
+}
+
+
+
+#our_storys li{
+    list-style-type: disc !important;
+}
+
+
+
+@media (min-width:1025px){
+    #customer-guarantee{
+        margin-top:-28px;
+    }
+    
+}
+
+@media (max-width:426px){
+    #customer-guarantee{
+        display: block;
+    }
+
+    #customer-guarantee img{
+        display: block;
+        margin: auto;
+    }
+}
